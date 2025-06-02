@@ -2,8 +2,8 @@
 # check=error=true
 
 # This Dockerfile is designed for production, not development. Use with Kamal or build'n'run by hand:
-# docker build -t new_rails_monufia .
-# docker run -d -p 80:80 -e RAILS_MASTER_KEY=<value from config/master.key> --name new_rails_monufia new_rails_monufia
+# docker build -t fishing_bugs .
+# docker run -d -p 80:80 -e RAILS_MASTER_KEY=<value from config/master.key> --name fishing_bugs fishing_bugs
 
 # For a containerized dev environment, see Dev Containers: https://guides.rubyonrails.org/getting_started_with_devcontainer.html
 
